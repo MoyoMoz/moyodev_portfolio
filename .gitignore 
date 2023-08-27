@@ -1,0 +1,29 @@
+# System files
+
+.DS_Store
+
+# Temporary files
+
+_.log
+_.tmp
+
+# Backup files
+
+_.bak
+_.swp
+\*.swo
+
+# IDEs and editors
+
+.vscode/
+.idea/
+_.sublime-project
+_.sublime-workspace
+
+# Node modules (if you ever use Node.js)
+
+node_modules/
+
+# History directory (seems like some backup or temp directory from your structure)
+
+.history/
