@@ -99,7 +99,7 @@
           <!-- I'm -->
           <span
             class="typed"
-            data-typed-items="Problem Solver, Value Driven, Full Stack Coder,"
+            data-typed-items="Problem Solver, Value Driven, Coder,"
           ></span>
         </p>
         <div class="social-links">
@@ -151,13 +151,14 @@
                 potential of AI.<br /><br /> -->
                 While building my project portfolio, I'm inclined towards
                 freelancing or joining a team that resonates with my values,
-                especially where tech converges with wellness, farming, social
+                especially where tech converges with wellness, farming, nature, social
                 justice, the arts, or motherhood.
               </p>
 
               <p>
                 Life has woven a rich tapestry of experiences for me, each
-                <!-- strand adding unique value to my coding persona. <br />From
+                strand adding unique value to my coding persona. 
+                <!-- <br />From
                 co-founding the Black Star Food Collective, navigating the
                 intricacies of grant management, immersing myself in land
                 stewardship via cannabis farming and community gardens, to
@@ -1235,5 +1236,7 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/cube_interaction.js"></script>
+
   </body>
 </html>
