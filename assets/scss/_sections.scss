@@ -92,150 +92,162 @@ section {
 -----------------------------------------------------
 // # Facts
 --------------------------------------------------------------*/
-.facts {
+// .facts {
 
-  .count-box {
-    padding: 30px 30px 25px 30px;
-    margin-top: 30px;
-    width: 100%;
-    position: relative;
-    text-align: center;
-    background: $white;
+//   .count-box {
+//     padding: 30px 30px 25px 30px;
+//     margin-top: 30px;
+//     width: 100%;
+//     position: relative;
+//     text-align: center;
+//     background: $white;
 
-    i {
-      position: absolute;
-      top: -25px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 24px;
-      background: $primary;
-      color: $white;
-      border-radius: 50px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 48px;
-      height: 48px;
-    }
+//     i {
+//       position: absolute;
+//       top: -25px;
+//       left: 50%;
+//       transform: translateX(-50%);
+//       font-size: 24px;
+//       background: $primary;
+//       color: $white;
+//       border-radius: 50px;
+//       display: inline-flex;
+//       align-items: center;
+//       justify-content: center;
+//       width: 48px;
+//       height: 48px;
+//     }
 
-    span {
-      font-size: 36px;
-      display: block;
-      font-weight: 600;
-      color: darken($primary, 30);
-    }
+//     span {
+//       font-size: 36px;
+//       display: block;
+//       font-weight: 600;
+//       color: darken($primary, 30);
+//     }
 
-    p {
-      padding: 0;
-      margin: 0;
-      font-family: $font-primary;
-      font-size: 14px;
-    }
-  }
-}
+//     p {
+//       padding: 0;
+//       margin: 0;
+//       font-family: $font-primary;
+//       font-size: 14px;
+//     }
+//   }
+// }
 
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills {
+// .skills {
 
-  .progress {
-    height: 60px;
-    display: block;
-    background: none;
-    border-radius: 0;
-  }
-  .progress .skill {
-    padding: 10px 0;
-    margin: 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: $font-secondary;
-    color: $secondary;
-  }
-  .progress .skill .val {
-    float: right;
-    font-style: normal;
-  }
+  // .progress {
+  //   height: 60px;
+  //   display: block;
+  //   background: none;
+  //   border-radius: 0;
+  // }
+//   .progress .skill {
+//     padding: 10px 0;
+//     margin: 0;
+//     text-transform: uppercase;
+//     display: block;
+//     font-weight: 600;
+//     font-family: $font-secondary;
+//     color: $secondary;
+//   }
+//   .progress .skill .val {
+//     float: right;
+//     font-style: normal;
+//   }
 
-  .progress-bar-wrap {
-    background: lighten($secondary, 64);
-  }
+//   .progress-bar-wrap {
+//     background: lighten($secondary, 64);
+//   }
 
-  .progress-bar {
-    width: 1px;
-    height: 10px;
-    transition: .9s;
-    background-color: $primary;
-  }
+//   .progress-bar {
+//     width: 1px;
+//     height: 10px;
+//     transition: .9s;
+//     background-color: $primary;
+//   }
+// }
+.tech-icon {
+  width: 50px; /* Adjust based on the desired size on the website */
+  height: 50px;
+  margin: 10px; /* Spacing between icons */
+  color: #0563bb; /* Primary accent color */
+  transition: transform 0.3s, opacity 0.3s; /* Smooth transition for hover effects */
+}
+
+.tech-icon:hover {
+  transform: scale(1.1); /* Slight enlargement on hover */
+  opacity: 0.8; /* Slight fade on hover */
 }
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume {
+// .resume {
 
-  .resume-title {
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: $secondary;
-  }
+//   .resume-title {
+//     font-size: 26px;
+//     font-weight: 700;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+//     color: $secondary;
+//   }
   
-  .resume-item {
-    padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid $primary;
-    position: relative;
+//   .resume-item {
+//     padding: 0 0 20px 20px;
+//     margin-top: -2px;
+//     border-left: 2px solid $primary;
+//     position: relative;
 
-    h4 {
-      line-height: 18px;
-      font-size: 18px;
-      font-weight: 600;
-      text-transform: uppercase;
-      font-family: $font-secondary;
-      color: $primary;
-      margin-bottom: 10px;
-    }
+//     h4 {
+//       line-height: 18px;
+//       font-size: 18px;
+//       font-weight: 600;
+//       text-transform: uppercase;
+//       font-family: $font-secondary;
+//       color: $primary;
+//       margin-bottom: 10px;
+//     }
 
-    h5 {
-      font-size: 16px;
-      background: lighten($secondary, 66);
-      padding: 5px 15px;
-      display: inline-block;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
+//     h5 {
+//       font-size: 16px;
+//       background: lighten($secondary, 66);
+//       padding: 5px 15px;
+//       display: inline-block;
+//       font-weight: 600;
+//       margin-bottom: 10px;
+//     }
 
-    ul {
-      padding-left: 20px;
+//     ul {
+//       padding-left: 20px;
 
-      li {
-        padding-bottom: 10px;
-      }
-    }
+//       li {
+//         padding-bottom: 10px;
+//       }
+//     }
 
-    &:last-child {
-      padding-bottom: 0;
-    }
-  }
+//     &:last-child {
+//       padding-bottom: 0;
+//     }
+//   }
 
-  .resume-item::before {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: $white;
-    border: 2px solid $primary;
-  }
+//   .resume-item::before {
+//     content: "";
+//     position: absolute;
+//     width: 16px;
+//     height: 16px;
+//     border-radius: 50px;
+//     left: -9px;
+//     top: 0;
+//     background: $white;
+//     border: 2px solid $primary;
+//   }
 
 
-}
+// }
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -722,7 +734,7 @@ section {
 
   .info {
     width: 100%;
-    background: $white;
+    background: black;
 
     i {
       font-size: 20px;
@@ -768,7 +780,7 @@ section {
 
   .php-email-form {
     width: 100%;
-    background: #fff;
+    background: black;
 
     .form-group {
       padding-bottom: 8px;

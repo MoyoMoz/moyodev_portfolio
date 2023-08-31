@@ -37,6 +37,9 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
+    <!-- Skills/tech stack icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
     <!-- =======================================================
   * Template Name: MyResume
   * Updated: Jul 27 2023 with Bootstrap v5.3.1
@@ -98,7 +101,7 @@
           <!-- I'm -->
           <span
             class="typed"
-            data-typed-items="Problem Solver, Value Driven, Coder,"
+            data-typed-items="Problem Solver, Value Driven, Coder,Creative"
           ></span>
         </p>
         <div class="social-links">
@@ -119,11 +122,12 @@
           <div class="section-title">
             <h2>About</h2>
             <p class="about-aligned-text">
-              A global spirit residing amidst the evergreen
-              beauty of Seattle, Washington. <br> 
               My reverence for non-violent
               communication, impeccable design, efficiently functioning systems,
-              and innovation drives me daily.
+              and innovation drives me daily. <br> 
+              A global spirit residing amidst the evergreen
+              beauty of Seattle, Washington. 
+              
             </p>
           </div>
 
@@ -150,10 +154,7 @@
                 Harvard's CS50 computer science course and venturing into
                 Machine Learning projects. I'm keen on unlocking the immense
                 potential of AI.<br /><br /> -->
-                While building my project portfolio, I'm inclined towards
-                freelancing or joining a team that resonates with my values,
-                especially where tech converges with wellness, farming, nature, social
-                justice, the arts, or motherhood.
+               
               </p>
 
               <p>
@@ -190,177 +191,49 @@
       <!-- End About Section -->
 
       <!-- ======= Facts Section ======= -->
-      <!-- <section id="facts" class="facts">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Facts</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="count-box">
-                <i class="bi bi-emoji-smile"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="232"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-              <div class="count-box">
-                <i class="bi bi-journal-richtext"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="521"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Projects</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box">
-                <i class="bi bi-headset"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="1463"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Hours Of Support</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box">
-                <i class="bi bi-award"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="25"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Awards</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
+      
       <!-- End Facts Section -->
 
       <!-- ======= Skills Section ======= -->
-      <section id="skills" class="skills section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Skills</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-          </div>
 
-          <div class="row skills-content">
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="100"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
+      <div class="icon-container">
+<!-- Python Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python Logo" class="tech-icon" style="width: 60px; height: 60px;">
 
-              <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
+<!-- CSS Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS3 Logo" class="tech-icon" style="width: 60px; height: 60px;">
 
-              <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
+<!-- HTML Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML5 Logo" class="tech-icon" style="width: 60px; height: 60px;">
 
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill">PHP <i class="val">80%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
+<!-- JavaScript Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript Logo" class="tech-icon" style="width: 60px; height: 60px;">
 
-              <div class="progress">
-                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
+<!-- Bootstrap Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt="Bootstrap Logo" class="tech-icon" style="width: 60px; height: 60px;">
 
-              <div class="progress">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="55"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<!-- GitHub Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub Logo" class="tech-icon" style="width: 60px; height: 60px;">
+
+<!-- Flask Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" alt="Flask Logo" class="tech-icon" style="width: 60px; height: 60px;">
+
+<!-- Heroku Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg" alt="Heroku Logo" class="tech-icon" style="width: 60px; height: 60px;">
+
+<!-- Django Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" alt="Django Logo" class="tech-icon" style="width: 60px; height: 60px;">
+
+<!-- Figma Icon -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma Logo" class="tech-icon" style="width: 60px; height: 60px;">
+
+</div>
+
+     
       <!-- End Skills Section -->
 
       <!-- ======= Resume Section ======= -->
-      <section id="resume" class="resume">
+      <!-- <section id="resume" class="resume">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Resume</h2>
@@ -466,7 +339,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Resume Section -->
 
       <!-- ======= Portfolio Section ======= -->
@@ -475,10 +348,10 @@
           <div class="section-title">
             <h2>Portfolio</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              While building my project portfolio, I'm inclined towards
+              freelancing or joining a team that resonates with my values,
+              especially where tech converges with wellness, farming, nature, social
+              justice, the arts, or motherhood.
             </p>
           </div>
 
