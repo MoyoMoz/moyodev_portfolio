@@ -368,21 +368,21 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
   position: relative;
   color: #02a902;
 }
@@ -428,7 +428,7 @@ section {
       margin-right: 10px;
     }
     p:last-child {
-      margin-bottom: 50px;
+      margin-bottom: 100px;
     }
   }
 
@@ -442,7 +442,7 @@ section {
       margin-left: auto;
       margin-right: auto;
       line-height: 2; 
-      font-size: 20px;
+      font-size: 25px;
     }
   }
 
@@ -456,11 +456,11 @@ section {
 }
 
 .about-aligned-text {
-    max-width: 100%; 
+    max-width: 120%; 
     margin-left: auto;
     margin-right: auto;
     line-height: 2; 
-    font-size: 18px;
+    font-size: 22px;
     font-weight: medium;
     
 }
@@ -809,7 +809,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: black;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
@@ -1003,7 +1003,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: black;
   opacity: 1;
   border: 1px solid #0563bb;
 }
@@ -1023,7 +1023,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: black;
 }
 
 .contact .info i {
@@ -1069,7 +1069,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: black;
 }
 
 .contact .php-email-form .form-group {
@@ -1268,32 +1268,32 @@ section {
 }
 
 .back {
-  transform: translateZ(-80px) rotateX(180deg);
+  transform: translateZ(-50px) rotateX(180deg);
   background-image: url(../img/1.jpeg);
 }
 
 .left {
-  transform: translateX(-80px) rotateY(90deg);
+  transform: translateX(-50px) rotateY(90deg);
   background-image: url(../img/2.jpeg);
 }
 
 .right {
-  transform: translateX(80px) rotateY(90deg);
+  transform: translateX(50px) rotateY(90deg);
   background-image: url(../img/3.jpeg);
 }
 
 .top {
-  transform: translateY(-80px) rotateX(90deg);
+  transform: translateY(-50px) rotateX(90deg);
   background-image: url(../img/4.jpeg);
 }
 
 .bottom {
-  transform: translateY(80px) rotateX(270deg);
+  transform: translateY(50px) rotateX(270deg);
   background-image: url(../img/5.jpeg);
 }
 
 .front {
-  transform: translateZ(80px);
+  transform: translateZ(50px);
   background-image: url(../img/6.jpeg);
 }
 

@@ -67,11 +67,11 @@
               ><i class="bx bx-user"></i> <span>About</span></a
             >
           </li>
-          <li>
+          <!-- <li>
             <a href="#resume" class="nav-link scrollto"
               ><i class="bx bx-file-blank"></i> <span>Resume</span></a
             >
-          </li>
+          </li> -->
           <li>
             <a href="#portfolio" class="nav-link scrollto"
               ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
@@ -655,10 +655,7 @@
           <div class="section-title">
             <h2>Services</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Crafting visually appealing, responsive, and interactive websites and web apps
             </p>
           </div>
 
